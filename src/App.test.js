@@ -34,7 +34,6 @@ describe("App Component", () => {
   });
 
   it("Should render without errors", () => {
-    // eslint-disable-next-line testing-library/await-async-query
     const component = findByTestAtrr(wrapper, "appComponent");
     expect(component.length).toBe(1);
   });
