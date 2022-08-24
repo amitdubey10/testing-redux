@@ -11,6 +11,6 @@ export const fetchPosts = () => async (dispatch) => {
       });
     })
     .catch((err) => {
-      // console.log(err);
+        console.log(err);
     });
 };

@@ -1,6 +1,6 @@
 import moxios from 'moxios';
-import { testStore } from './../../Utils';
-import { fetchPosts } from './../actions';
+import { testStore } from '../../Utils';
+import { fetchPosts } from '../actions';
 
 describe('fetchPosts action', () => {
 

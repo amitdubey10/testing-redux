@@ -41,19 +41,16 @@ describe("Headline Component", () => {
     });
 
     it("Should render without errors", () => {
-      // eslint-disable-next-line testing-library/await-async-query
       const component = findByTestAtrr(wrapper, "HeadlineComponent");
       expect(component.length).toBe(1);
     });
 
     it("Should render a H1", () => {
-      // eslint-disable-next-line testing-library/await-async-query
       const h1 = findByTestAtrr(wrapper, "header");
       expect(h1.length).toBe(1);
     });
 
     it("Should render a desc", () => {
-      // eslint-disable-next-line testing-library/await-async-query
       const desc = findByTestAtrr(wrapper, "desc");
       expect(desc.length).toBe(1);
     });
@@ -66,7 +63,6 @@ describe("Headline Component", () => {
     });
 
     it("Should not render", () => {
-      // eslint-disable-next-line testing-library/await-async-query
       const component = findByTestAtrr(wrapper, "HeadlineComponent");
       expect(component.length).toBe(0);
     });

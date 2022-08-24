@@ -15,13 +15,11 @@ describe("Header Component", () => {
   });
 
   it("Should render without errors", () => {
-    // eslint-disable-next-line testing-library/await-async-query
     const wrapper = findByTestAtrr(component, "headerComponent");
     expect(wrapper.length).toBe(1);
   });
 
   it("Should render a logo", () => {
-    // eslint-disable-next-line testing-library/await-async-query
     const logo = findByTestAtrr(component, "logoIMG");
     expect(logo.length).toBe(1);
   });
